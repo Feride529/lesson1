@@ -76,7 +76,7 @@ public class First {
           int g = sc.nextInt();
          double l =(double) f / g;
          System.out.println("Qismet :" + l);
-
+//
 
 
      }
