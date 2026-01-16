@@ -82,5 +82,74 @@ public class First {
      }
  }
 
+//bonus task: cutluk
+ /*   public static void main(String[] args) {
 
+        String n = "1235321";   // input
+        int count = 0;
 
+        int left = 0;
+        int right = n.length() - 1;
+
+        while (left <= right) {
+            if (n.charAt(left) == n.charAt(right)) {
+                count++;
+            }
+            left++;
+            right--;
+        }
+
+        System.out.println(count);
+    }
+} */
+
+//bonus2: cevrilme
+/*  import java.util.Scanner;
+
+        public static void main(String[] args) {
+
+            Scanner sc = new Scanner(System.in);
+
+            System.out.print("n daxil edin: ");
+            int n = sc.nextInt();
+
+            int count = 0;
+
+            while (n != 1) {
+                if (n % 2 == 0) {
+                    n = n / 2;
+                } else {
+                    n = n + 1;
+                }
+                count++;
+            }
+
+            System.out.println(count);
+        }
+
+ */
+
+/* import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Array ölçüsünü daxil edin (n x n): ");
+        int n = sc.nextInt();
+
+        int[][] array = new int[n][n];
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                if (j > i) { // yuxarı üçbucaq
+                    array[i][j] = 1;
+                } else {     // alt üçbucaq
+                    array[i][j] = 0;
+                }
+                System.out.print(array[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+}*/
