@@ -1,4 +1,4 @@
-public class giMethodsExample {
+public class MethodsExample {
 
  public static void main(String[] args) {
 

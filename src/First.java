@@ -1,5 +1,14 @@
 import java.util.Scanner;
-
+/**
+        * Menu capa verilir ve menunu daxil edirik
+ * daxil etdiyimize uygun isleyir mes: 1 register secdimse
+ * register:
+        *  birinci how many student?
+        *  daxil olunan reqemi arrayin uzunluguna vererek hemin olcude studentleri saxlamaq ucun array yaratmis olursuz.
+        *  hemin arrayin uzunlugu qeder dovr eletdirerek her defesinde yeni obyekt yaradib doldurub onu
+ *  arrayin muvafiq indexine set etmek lazimdir
+ *
+         */
 public class First {
 
     public static void main(String[] args) {
